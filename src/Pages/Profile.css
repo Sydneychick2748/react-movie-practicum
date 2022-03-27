@@ -1,0 +1,402 @@
+.avatar-input {
+  opacity: 0;
+  height: 3.5em;
+  width: 3.5em;
+  border-radius: 100%;
+}
+.edit-avatar-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.display-div {
+  width: 90vw;
+  background-color: white;
+  border: 2px, solid, black;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 2em;
+  text-align: left;
+  padding: 1em;
+}
+
+.display-div p.added-movie {
+  border: 1px solid black;
+  max-width: 45%;
+  text-align: center;
+  display: inline-block;
+  margin-right: 0.5em;
+  padding: 0.25em;
+}
+
+.country-region-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.who-are-you {
+  padding: 2em;
+  margin-bottom: 2em;
+}
+.about {
+  padding: 2em;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 2em;
+}
+.entry-form-name {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+.profile {
+  text-align: start;
+  margin-bottom: 2em;
+}
+.create-profile {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.edit-profile-button {
+  color: rgba(230, 225, 197, 1);
+  margin-top: 1em;
+  background-color: rgba(57, 92, 107, 1);
+  border-radius: 10px;
+  margin-bottom: 2em;
+  margin-left: 1em;
+}
+.profile-pic {
+  /* border-radius: 20px; */
+  margin-bottom: 2em;
+  width: 5em;
+}
+.add-pic-area {
+  margin-top: 2em;
+  margin-left: 1em;
+}
+
+.form-section {
+  margin-top: 2em;
+}
+.countrys {
+  height: 5vh;
+  /* width: 89vw; */
+}
+/* .text-box-state {
+  width: 89vw;
+} */
+.text-box-about {
+  /* width: 89vw; */
+  height: 20vh;
+  margin-bottom: 2em;
+}
+.add-movies-box {
+  width: 89vw;
+}
+.movie-add-section {
+  background: #ffffff;
+  /* border: 1px solid black; */
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.save-button {
+  display: flex;
+  margin-top: 2em;
+  color: rgba(230, 225, 197, 1);
+  background-color: rgba(57, 92, 107, 1);
+  border-radius: 20px;
+  margin-left: 5em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.added-profile-button {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 10em;
+}
+.edit-profile-button {
+  margin-left: 10em;
+}
+.about-input {
+  width: 17.8em;
+  height: 12em;
+}
+
+.display-div {
+  text-align: start;
+  /* margin: 1em 1em 1em 0em; */
+}
+.avatar-display {
+  margin-left: 1.3em;
+}
+.chelsea-name {
+  margin-left: 5em;
+}
+.delete-div img {
+  display: flex !important;
+  height: 2vh;
+}
+.chelsea-text-about-input {
+  text-overflow: ellipsis;
+  /* overflow: overlay; */
+  overflow: auto;
+}
+.big-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.delete-div {
+  display: inline-block;
+}
+.delete-div {
+  width: 100%;
+  display: flex;
+}
+.text-box-state {
+  width: 16em;
+}
+@media screen and (min-width: 425px) {
+  .entry-form-name {
+    width: 89vw;
+  }
+  .movie-add-section {
+    width: 89vw;
+  }
+}
+@media screen and (min-width: 768px) {
+  .display-div {
+    text-align: start;
+    margin: 1em;
+    width: 40vw;
+  }
+  .white-box2-form-edit {
+    border: 1px solid black;
+    background-color: white;
+    padding: 1em;
+    border-radius: 10px;
+    width: 45vw;
+    height: 92vh !important;
+    overflow: scroll;
+  }
+
+  .delete-div {
+    width: 100%;
+    display: flex;
+  }
+
+  .display-state-profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .display-div:nth-of-type(2) {
+    order: 2;
+  }
+
+  .display-div:nth-of-type(3) {
+    order: 3;
+    position: relative;
+    bottom: 18.5em;
+  }
+
+  .profile-edit-btn-wrapper-div {
+    background-color: none;
+    display: flex;
+    position: relative;
+    top: 20em;
+  }
+
+  .edit-profile-button {
+    color: rgba(230, 225, 197, 1);
+    margin-top: 1em;
+    background-color: rgba(57, 92, 107, 1);
+    border-radius: 30px;
+    margin-bottom: 2em;
+    margin-left: 10em;
+    width: 20vw;
+  }
+  .added-profile-button {
+    color: rgba(230, 225, 197, 1);
+    margin-top: 1em;
+    background-color: rgba(57, 92, 107, 1);
+    border-radius: 30px;
+    margin-bottom: 2em;
+    margin-left: 10em;
+    width: 20vw;
+  }
+  .chelsea-name {
+    margin-left: -15em;
+    padding: 1.5em;
+  }
+  .avatar-display {
+    margin-left: 1.3em;
+    margin-top: 1em;
+  }
+  .white-box1-form-edit {
+    border: 1px solid black;
+    background-color: white;
+    padding: 1em;
+    border-radius: 10px;
+    /* height: 70vh; */
+  }
+  .white-box2-form-edit {
+    border: 1px solid black;
+    background-color: white;
+    padding: 1em;
+    border-radius: 10px;
+    width: 45vw;
+    height: 78vh;
+    overflow: scroll;
+  }
+  .profile-wrapper-forflex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
+  .entry-form-name {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    width: 35vw;
+  }
+  .countrys {
+    height: 5vh;
+    width: auto;
+  }
+  .text-box-state {
+    width: 35vw;
+  }
+  .text-box-about {
+    width: 35vw;
+  }
+  .movie-add-section {
+    width: 40vw;
+  }
+  .add-movies-box {
+    width: 40vw;
+    margin-top: 0.9em;
+  }
+  .about-input {
+    margin-left: 1em;
+  }
+
+  .save-button {
+    display: flex;
+    margin-top: 2em;
+    color: rgba(230, 225, 197, 1);
+    background-color: rgba(57, 92, 107, 1);
+    border-radius: 20px;
+    padding-left: 3.5em;
+    margin-left: 4em;
+    margin-bottom: 2em;
+    width: 20vw;
+  }
+
+  h3 {
+    margin-top: 0.1em;
+  }
+  textarea {
+    width: 17em;
+    height: 7em;
+  }
+  .display-state-profile {
+    margin-top: 2.3em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .display-state-profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .edit-profile-button {
+    color: rgba(230, 225, 197, 1);
+    margin-top: 1em;
+    background-color: rgba(57, 92, 107, 1);
+    border-radius: 30px;
+    margin-bottom: 2em;
+    margin-left: 13em;
+    width: 20vw;
+  }
+  .added-profile-button {
+    color: rgba(230, 225, 197, 1);
+    margin-top: 1em;
+    background-color: rgba(57, 92, 107, 1);
+    border-radius: 30px;
+    margin-bottom: 2em;
+    margin-left: 13em;
+    width: 20vw;
+  }
+  .chelsea-name {
+    margin-left: -15em;
+    padding: 1.5em;
+  }
+  .avatar-display {
+    margin-left: 1.3em;
+    margin-top: 1em;
+  }
+  .white-box1-form-edit {
+    border: 1px solid black;
+    background-color: white;
+    padding: 1em;
+    border-radius: 10px;
+    width: 40vw;
+    /* height: 80vh; */
+  }
+  .white-box2-form-edit {
+    border: 1px solid black;
+    background-color: white;
+    padding: 1em;
+    border-radius: 10px;
+    width: 45vw;
+    height: 80vh;
+  }
+  .profile-wrapper-forflex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4em;
+  }
+  .text-area-lock {
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 0.4em;
+    width: 40vw;
+  }
+  .save-button {
+    display: flex;
+    margin-top: 2em;
+    color: rgba(230, 225, 197, 1);
+    background-color: rgba(57, 92, 107, 1);
+    border-radius: 20px;
+    width: 20vw;
+    padding-left: 5.3em;
+  }
+  textarea {
+    width: 22em;
+    height: 17em;
+  }
+  .display-state-profile {
+    margin-bottom: 16.2em;
+  }
+  .display-div {
+    padding: 8px;
+    max-width: fit-content;
+  }
+  textarea.about-input {
+    max-height: 20vh;
+
+    width: 22.4em;
+  }
+  .display-state-profile {
+    margin-top: 2.3em;
+  }
+  .display-div {
+    margin-top: 3em;
+  }
+}

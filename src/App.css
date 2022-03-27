@@ -1,38 +1,161 @@
-.App {
+body {
+  background-color: #e6e1c5;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* this is tutar */
+.movie-add-section {
+  background: #ffffff;
+  border: 1px solid black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  background: rgba(57, 92, 107, 1);
+  padding: 10px;
+  margin-bottom: -0.1em;
+}
+.profile-btn {
+  background-color: rgba(57, 92, 107, 1);
+  border-radius: 20px;
+  color: rgba(212, 203, 146, 1);
+  border-color: rgba(212, 203, 146, 1);
+}
+.logo {
+  color: rgba(212, 203, 146, 1);
+}
+.profile-link-footer {
+  background-color: rgba(57, 92, 107, 1);
+  border-radius: 10px;
+  /* color: rgba(212, 203, 146, 1); */
+  border-color: rgba(212, 203, 146, 1);
+}
+.profile-link {
+  background-color: rgba(57, 92, 107, 1);
+  border-radius: 10px;
+  color: rgba(212, 203, 146, 1);
+  border-color: rgba(212, 203, 146, 1);
+}
+.header {
+  background-color: rgba(57, 92, 107, 1);
+  text-align: center;
+  padding: 10px;
+}
+.search {
+  font-weight: bold;
+  text-align: left;
+  margin-left: 0.5em;
+  margin-top: 2em;
+}
+.search-button {
+  width: 40%;
+  border-radius: 20px;
+  color: rgba(212, 203, 146, 1);
+  border-color: rgba(212, 203, 146, 1);
+  background-color: rgba(57, 92, 107, 1);
+  position: relative;
+  margin-bottom: 5em;
+  top: 2em;
+  /* right: 7.5em; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.add-btn {
+  /* margin: 2em; */
+  position: relative;
+  /* left: 5em; */
+  width: 98%;
+}
+
+.your-movies {
+  color: rgba(212, 203, 146, 1);
+}
+.poster {
+  border-radius: 10px;
+  width: 98%;
+}
+.footer {
+  background: rgba(57, 92, 107, 1);
+  padding: 15px;
+  text-align: left;
+}
+.footer-facebook {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
+}
+.facebook-div {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.menu {
+  color: rgba(212, 203, 146, 1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+.fave-movies-display {
+  height: 200px;
+  width: 90%;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+}
+.textarea-lock {
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .poster {
+    border-radius: 10px;
+
+    display: flex;
   }
-  to {
-    transform: rotate(360deg);
+  .plot-released {
+    width: 40%;
+  }
+  .title-plot-released {
+    width: 40%;
+  }
+  .link-twitter {
+    padding: 2em;
+  }
+
+  .facebook-div {
+    margin-left: -2px;
+    margin-right: -20px;
+  }
+  .map-movie-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
+    grid-gap: 4em;
+  }
+  .footer-info2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 20em;
+    margin-top: -4em;
+  }
+  .textarea-lock {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .map-movie-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2em;
+    grid-gap: 4em;
+  }
+  .save-button {
+    margin: auto !important;
+    padding-left: 7.7em;
+  }
+  .textarea-lock {
+    width: 40%;
   }
 }

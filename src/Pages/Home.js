@@ -3,7 +3,7 @@ import Header from "../Components/Header";
 import MovieCard from "../Components/MovieCard";
 import NavBar from "../Components/NavBar";
 import "./Home.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 
 const Home = (props) => {
   console.log("props from app", props);

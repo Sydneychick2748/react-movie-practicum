@@ -22,7 +22,7 @@ const Home = (props) => {
         {props.movies.map((movie, key) => {
           return <MovieCard movie={movie} key={key} />;
         })}
-        ;
+    
       </div>
     </div>
   );

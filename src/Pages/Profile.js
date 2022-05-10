@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useRef } from "react";
 import IconLock from "../Assets/IconLock.png";
 import cancelx from "../Assets/cancelx.png";
 import avatars from "../Assets/avatars.png";
-import { useForm } from "react-hook-form";
+// import { useForm } from "react-hook-form";
 import "./Profile.css";
 import chelseaPic from "../Assets/chelsea.png";
 import Header from "../Components/Header";
@@ -10,8 +10,8 @@ import NavBar from "../Components/NavBar";
 
 const Profile = (props) => {
   // console.log("profile props", props);
-  const { register, handleSubmit } = useForm();
-  const [movies, setMovies] = useState([]);
+  // const { register, handleSubmit } = useForm();
+  // const [movies, setMovies] = useState([]);
 
   const imageRef = useRef(null);
   const [display, setDisplay] = useState("display");
@@ -108,13 +108,13 @@ const Profile = (props) => {
     });
   };
 
-  const addMovie = (e) => {
-    e.preventDefault();
-    setMovies((movies) => [
-      ...movies,
-      <input type="text" placeholder="add new movie" name="movie" />,
-    ]);
-  };
+  // const addMovie = (e) => {
+  //   e.preventDefault();
+  //   setMovies((movies) => [
+  //     ...movies,
+  //     <input type="text" placeholder="add new movie" name="movie" />,
+  //   ]);
+  // };
 
   return (
     <div className="profile">
@@ -160,7 +160,7 @@ const Profile = (props) => {
                   <img
                     className="profile-pic"
                     src={avatars}
-                    alt="plus-avatar-image"
+                    alt="Personal Avatar"
                     style={{
                       height: "3.5em",
                       width: "3.5em",

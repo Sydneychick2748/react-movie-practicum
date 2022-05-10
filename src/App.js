@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import NavBar from "./Components/NavBar";
 import Home from "../src/Pages/Home";
 import Footer from "./Components/Footer";
 import "./App.css";
@@ -8,7 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Profile from "../src/Pages/Profile";
 
 function App() {
-  const [movieTitles, setMovieTitles] = useState([
+  const movieTitles = [
     "Free Willy",
     "Frozen",
     "Titanic",
@@ -16,7 +15,7 @@ function App() {
     "Up",
     "Pulp Fiction",
     "The Negotiator",
-  ]);
+  ];
 
   const [movies, setMovies] = useState([]);
   const getMovieObj = async (title) => {
@@ -42,7 +41,7 @@ function App() {
   // console.log("movies", movies);
   useEffect(() => {
     getMovies(movieTitles);
-  }, []);
+  } );
 
   return (
     <div>

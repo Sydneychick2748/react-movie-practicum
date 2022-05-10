@@ -13,12 +13,12 @@ const Footer = () => {
       <div>
         <ul className="footer-info1">
           <li className="footer-phone">
-            <a className="profile-phone" href="">
+            <a className="profile-phone" href="https://facebook.com/home?lang=en">
               +1 (245) 678-9012
             </a>
           </li>
           <li className="footer-email">
-            <a className="profile-email" href="">
+            <a className="profile-email" href="https://facebook.com/home?lang=en">
               support@email.com
             </a>
           </li>
@@ -44,6 +44,7 @@ const Footer = () => {
                 className="link-facebook"
                 href="https://facebook.com/home?lang=en"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img src={facebook} alt="icon" />
               </a>
@@ -55,6 +56,7 @@ const Footer = () => {
                 className="link-twitter"
                 href="https://twitter.com/home?lang=en"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img src={twitter} alt="icon" />
               </a>
@@ -66,6 +68,7 @@ const Footer = () => {
                 className="link-instagram"
                 href="https://instagram.com/home?lang=en"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img src={instagram} alt="icon" />
               </a>
